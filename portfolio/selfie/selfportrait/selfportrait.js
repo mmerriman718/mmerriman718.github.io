@@ -3,13 +3,13 @@ createCanvas(600, 600);
 }
 
 function preload(){
-  img1 =loadImage("images/shirt.jpg")
-  img2 =loadImage("images/moonjellies.jpg")
+  img1 =loadImage("https://mmerriman718.github.io/portfolio/moonjellies.jpg")
+  img2 =loadImage("https://mmerriman718.github.io/portfolio/shirt.jpg")
 }
 
 function draw() {
   
-  image(img2, 0, 0, 600, 600); //background
+  background(img1); //background
   
   fill(0, 2, 11); //hair side
    strokeWeight(0)
@@ -66,5 +66,5 @@ function draw() {
  fill(0, 0, 8); //shirt
    rect (200, 400, 200, 400)
  
- image(img1, 240, 420, 150, 150); //shirt print
+ image(img2, 240, 420, 150, 150); //shirt print
 }
