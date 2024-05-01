@@ -35,7 +35,7 @@ function levelOne(){
   }
   stroke('yellow');
   line(ballx+30, bally+30, mouseX, mouseY);
-  image(cheese, ballx, bally, ballSize, ballSize);
+  image(cheese, ballx-20, bally-20, ballSize, ballSize);
   
   if(score>9){
     background(mouse);
